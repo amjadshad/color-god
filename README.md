@@ -1,20 +1,20 @@
 
-# newcolorgen
+# color-magic
 
 A package for generating color palettes.
 
 ## Installation
 
-You can install `newcolorgen` via npm:
+You can install `color-magic` via npm:
 
 ```bash
-npm install newcolorgen
+npm install color-magic
 ```
 
 ## Usage
 
 ```javascript
-const generatePalette = require('newcolorgen');
+const generatePalette = require('color-magic');
 
 // Example usage
 const baseColor = '#3498db'; // Base color in hex format
