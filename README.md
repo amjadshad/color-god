@@ -1,20 +1,20 @@
 
-# color-magic
+# color-god
 
 A package for generating color palettes.
 
 ## Installation
 
-You can install `color-magic` via npm:
+You can install `color-god` via npm:
 
 ```bash
-npm install color-magic
+npm install color-god
 ```
 
 ## Usage
 
 ```javascript
-const generatePalette = require('color-magic');
+const generatePalette = require('color-god');
 
 // Example usage
 const baseColor = '#3498db'; // Base color in hex format
