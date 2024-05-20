@@ -1,7 +1,7 @@
 {
   "name": "color-god",
-  "version": "1.0.1",
-  "description": "A package for generating color palettes.",
+  "version": "1.0.2",
+  "description": "A package for different functions related to colors, .",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,13 @@
   "keywords": [
     "color",
     "palette",
-    "generator"
+    "generator",
+    "hexToRgb",
+    "color manipulation",
+    "color conversion",
+    "color theory",
+    "color script"
+
   ],
   "author": "amjadshad@gmail.com",
   "license": "MIT",
