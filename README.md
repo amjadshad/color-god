@@ -1,7 +1,7 @@
 
 # color-god
 
-A package for generating color palettes.
+A package for color codes, color generation, color manupulation.
 
 ## Installation
 
@@ -25,8 +25,6 @@ console.log('Generated Color Palette:', colorPalette);
 ```
 
 
-## Usage
-
 ### hexToRgb
 
 The `hexToRgb` function converts a color from hexadecimal format to RGB format.
@@ -47,9 +45,7 @@ This will output:
 RGB Color: rgb(52, 152, 219)
 ```
 
-
-## Usage
-
+ 
 ### colorNames
 
 The `colorNames` object contains color names mapped to their RGB values.
@@ -63,6 +59,7 @@ const colorName = 'red'; // Color name
 const rgbColor = colorNames[colorName];
 console.log('RGB Color for', colorName, ':', rgbColor);
 
+```
 ## License
 
 This package is open source and available under the [MIT License](https://opensource.org/licenses/MIT).

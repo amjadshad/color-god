@@ -1,6 +1,6 @@
 {
   "name": "color-god",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package for different functions related to colors, .",
   "main": "./src/index.js",
   "scripts": {
