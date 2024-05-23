@@ -152,8 +152,8 @@ const colors={
 
 }
 
-function colorNames(colorName) {
+function colorCode(colorName) {
     return colors[colorName];
 }
 
-module.exports = colorNames;
+module.exports = colorCode;

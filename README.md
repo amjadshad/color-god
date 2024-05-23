@@ -35,8 +35,7 @@ const hexToRgb = require('color-god');
 // Example usage
 const hexColor = '#3498db'; // Color in hex format
 
-const rgbColor = hexToRgb(hexColor);
-console.log('RGB Color:', rgbColor);
+const rgbColor = hexToRgb(hexColor); 
 ```
 
 This will output:
@@ -46,18 +45,22 @@ RGB Color: rgb(52, 152, 219)
 ```
 
  
-### colorNames
+### colorCode
 
-The `colorNames` object contains color names mapped to their RGB values.
+The `colorCode` object contains color names mapped to their RGB values.
 
 ```javascript
-const { colorNames } = require('color-god');
+const { colorCode } = require('color-god');
 
 // Example usage
 const colorName = 'red'; // Color name
 
-const rgbColor = colorNames[colorName];
-console.log('RGB Color for', colorName, ':', rgbColor);
+const rgbColor = colorCode[colorName];
+This will output:
+
+```bash
+RGB Color code: [255, 0, 0]
+```
 
 ```
 ## License
