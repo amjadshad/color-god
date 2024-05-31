@@ -12,7 +12,9 @@ npm install color-god
 ```
 
 ## Usage
+### colorCode
 
+The `colorCode` object contains color names mapped to their RGB values.
 ```javascript
 const generatePalette = require('color-god');
 
@@ -57,12 +59,13 @@ const colorName = 'red'; // Color name
 
 const rgbColor = colorCode[colorName];
 This will output:
+```
 
 ```bash
 RGB Color code: [255, 0, 0]
 ```
 
-```
+
 ## License
 
 This package is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
